@@ -9,6 +9,9 @@
   "author": "BoCheng Huang",
   "license": "ISC",
   "dependencies": {
-      "express": "*"
+      "express": "*",
+      "es6-promise": "^3.0.2",
+      "webvr-polyfill": "^0.2.4",
+      "three": "^0.73"
   }
 }
