@@ -9,6 +9,10 @@ app.get('/node_modules', function () {
   res.sendFile(__dirname + '/node_modules');
 });
 
+app.get('/public/js', function () {
+  res.sendFile(__dirname + '/public/js');
+});
+
 http.listen(port, function () {
     console.log('Listening at * 7776...');
 });
